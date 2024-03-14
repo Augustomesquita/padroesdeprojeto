@@ -1,7 +1,8 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+import padroes.PadraoNullObject;
+
 public class Main {
     public static void main(String[] args) {
-
+        PadraoNullObject padraoNullObject = new PadraoNullObject();
+        padraoNullObject.execute();
     }
 }
